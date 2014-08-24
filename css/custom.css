@@ -1,10 +1,5 @@
-
-/*
- *	custom.css stylesheet @ Johns Gresham
-*/
-html, body {
-	height: 100%;
-}
+body, html {
+    height: 100%}
 div {
     display: block;
 }
@@ -14,461 +9,418 @@ body {
     font-family: 'Helvetica Neue', Helvetica, 'Source Sans Pro', sans-serif;
 }
 * {
-	border: none;
+    border: none;
 }
 #home {
-	height: 100%;
+    height: 100%;
     padding: 0;
-	background-image: url("../images/ohio-stadium-night-filter2.jpg");
-	background-size: 100% 100%;
+    background-image: url(../images/ohio-stadium-night-filter2.jpg);
+    background-size: 100% 100%;
 }
 .section {
-	margin: 0;
-	clear: both;
+    margin: 0;
+    clear: both;
 }
 .container {
-	width: 90%;
-	text-align: center;
-	margin: 0 auto;
-	clear: both;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
 }
 .pink-script {
-	font-family: 'Playball', cursive;
-	font-size: 8rem;
-	color: #FFA4BD;
-	margin-top: 0;
-	margin-bottom: 0;
-	font-weight: 200;
-	line-height: 95%;
-	/*letter-spacing: 8px;*/
-}
+    font-family: Playball, cursive;
+    font-size: 8rem;
+    color: #FFA4BD;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 200;
+    line-height: 95%}
 .pink-script-area {
-	padding-top: 4em;
+    padding-top: 4em;
 }
 .button {
-	color: #FFA4BD;
-	border-width: 0.1em;
-	border-style: solid;
-	background-color: transparent;
-	border-color: rgba(255,164,189, .5);
-	transition: all 0.5s;
+    color: #FFA4BD;
+    border-width: .1em;
+    border-style: solid;
+    background-color: transparent;
+    border-color: rgba(255, 164, 189, .5);
+    transition: all .5s;
 }
 #hero-shirt-button {
-	margin-top: 1em;
-	font-size: 1.5em;
-	padding: 0.25em 0.75em;
-	border-radius: 1em;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	letter-spacing: 0.07em;
-    font-family: 'Montserrat', sans-serif;
-	cursor: pointer;
-	text-transform: uppercase;
+    margin-top: 1em;
+    font-size: 1.2em;
+    padding: .25em .75em;
+    border-radius: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: .07em;
+    font-family: Montserrat, sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
 }
-#hero-shirt-button:hover {
-	border-color: #FFA4BD;
+#hero-shirt-button:hover, #hero-shirt-button:target {
+    border-color: #FFA4BD;
 }
-#hero-shirt-button:target {
-	border-color: #FFA4BD;
+#hero-logo {
+    display: block;
+    margin: 2em auto;
+    width: 4em;
 }
-
 .date {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 5em;
-	color: #FFA4BD;
-	display: block;
-	padding-bottom: 0.5em;
-	font-weight: 900;
-	padding-top: 1em;
+    font-family: Montserrat, sans-serif;
+    font-size: 5em;
+    color: #FFA4BD;
+    display: block;
+    padding-bottom: .5em;
+    font-weight: 900;
+    padding-top: 1em;
 }
 #next-section {
-	width: 2em;
-	position: absolute;
-	bottom: 3em;
-	left:0;
-	right: 0;
-	margin:0 auto;
-	cursor: pointer;
+    width: 2em;
+    position: absolute;
+    bottom: 3em;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    cursor: pointer;
 }
 .row {
-	clear: both;
-	margin: 0 auto;
-	width: 75%;
-	overflow: hidden;
-	padding-top: 6em;
-	padding-bottom: 6em;
+    clear: both;
+    margin: 0 auto;
+    width: 75%;
+    overflow: hidden;
+    padding-top: 6em;
+    padding-bottom: 6em;
 }
 .size-12 {
-	max-width: 90%;
-}
+    max-width: 90%}
 .column {
-	width: 80%;
-	min-height: 40%;
-	display: inline;
+    width: 80%;
+    min-height: 40%;
+    display: inline;
 }
 .section.content {
-	background-size: 100% 100%;
-	font-size: 2em;
-	padding-top: 2em;
+    background-size: 100% 100%;
+    font-size: 2em;
+    padding-top: 2em;
 }
-
-/* 
- *   Cancer
- */
 #cancer {
-	background-image: url("../images/light_wool.png");
-	background-repeat: repeat;
-	background-size: initial;
-	-moz-box-shadow: 0 0.2em 0.7em #888888;
-	-webkit-box-shadow: 0 0.2em 0.7em #888888;
-	box-shadow: 0 0.2em 0.5em #888888;
-	padding-bottom: 6em;
+    background-image: url(../images/light_wool.png);
+    background-repeat: repeat;
+    background-size: initial;
+    -moz-box-shadow: 0 .2em .7em #888;
+    -webkit-box-shadow: 0 .2em .7em #888;
+    box-shadow: 0 .2em .5em #888;
+    padding-bottom: 6em;
 }
 .cancer-circle {
-	width: 10em;
-	height: 10em;
-	border-radius: 5em;
-	vertical-align: middle;
-	background-repeat: no-repeat;
-	background-color: white;
-	background-position: center;
-	box-shadow: 0 0em 0.9em #FFA4BD;
-	display: inline-block;
+    width: 10em;
+    height: 10em;
+    border-radius: 5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: center;
+    box-shadow: 0 0 .9em #FFA4BD;
+    display: inline-block;
 }
 .cancer-info {
-	text-align: left;
-	width: 60%;
-	line-height: 1.5em;
-	vertical-align: middle;
-	padding-top: 3.5em;
-	color: #FFA4BD;
-	font-weight: 300;
+    text-align: left;
+    width: 60%;
+    line-height: 1.5em;
+    vertical-align: middle;
+    padding-top: 3.5em;
+    color: #FFA4BD;
+    font-weight: 300;
 }
-.cancer-circle-right{
-	float: right;
-	background-image: url("../images/eight.png");
-	background-size: contain;
-	margin-right: 2em;
+.cancer-circle-right {
+    float: right;
+    background-image: url(../images/eight.png);
+    background-size: contain;
+    margin-right: 2em;
 }
 .cancer-info-left {
-	float: left;
-	margin-left: 1em;
+    float: left;
+    margin-left: 1em;
 }
 .cancer-circle-left {
-	float: left;
-	background-image: url("../images/tree.jpg");
-	background-size: contain;
-	margin-left: 1em;
+    float: left;
+    background-image: url(../images/tree.jpg);
+    background-size: contain;
+    margin-left: 1em;
 }
 .cancer-info-right {
-	float: right;
+    float: right;
 }
-
-/* `
- *    About Us
- */
 #about {
-	background-color: #f6f7f7;
-	text-align: center;
-	font-weight: 300;
-	overflow: hidden;
+    background-color: #f6f7f7;
+    text-align: center;
+    font-weight: 300;
+    overflow: hidden;
 }
 .about-circle {
-	width: 18em;
-	height: 18em;
-	border-radius: 9em;
-	background-image: url("../images/leaders-at-union.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
-	display: inline-block;
-	background-color: #FFA4BD;
-	box-shadow: 0px 13px 25px -5px rgba(0, 0, 0, 0.9);
+    width: 18em;
+    height: 18em;
+    border-radius: 9em;
+    background-image: url(../images/leaders-at-union.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: block;
+    margin: 0 auto;
+    background-color: #FFA4BD;
+    box-shadow: 0 13px 25px -5px rgba(0, 0, 0, .9);
 }
 .about-info {
-	color: #858585;
-	display: block;
-	line-height: 1.3em;
-	letter-spacing: 0.5px;
+    color: #858585;
+    display: block;
+    line-height: 1.3em;
+    letter-spacing: .5px;
 }
 #about #row2 {
-	padding-top: 0em;
+    padding-top: 0;
 }
 #about-pink-text {
-	color: #FFA4BD;
+    color: #FFA4BD;
 }
-/* 
- *    Charities
- */
 #charities {
-	text-align: center;
-	overflow: hidden;
-	padding-bottom: 2em;
-	position: relative;
-	background-color: white;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 2em;
+    position: relative;
+    background-color: #fff;
 }
 #charities .row {
-	padding-top: 1em;
+    padding-top: 1em;
 }
 .charities-info {
-	display: block;
-	text-align: center;
-	color: #858585;
-	margin-bottom: 5em;
-	font-weight: 300;
-	line-height: 1.3em;
-	letter-spacing: 0.5px;
+    display: block;
+    text-align: center;
+    color: #858585;
+    margin-bottom: 5em;
+    font-weight: 300;
+    line-height: 1.3em;
+    letter-spacing: .5px;
 }
 .charities-info span {
-	vertical-align: middle;
+    vertical-align: middle;
 }
 .custom-100 {
-	font-size: 1.3em;
-	font-weight: 300;
-	color: #FFA4BD;
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #FFA4BD;
 }
 .charities-circle {
-	width: 12em;
-	height: 12em;
-	border-radius: 6em;
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	border: 2px solid;
-	border-color: rgba(255,164,189, .5);
-	margin-bottom: 1em;
+    width: 12em;
+    height: 12em;
+    border-radius: 6em;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid;
+    border-color: rgba(255, 164, 189, .5);
+    margin-bottom: 1em;
 }
 .charities-circle:hover {
-	border-color: rgba(255,164,189, 1);
-	transition: all 0.3s;
+    border-color: rgba(255, 164, 189, 1);
+    transition: all .3s;
 }
 .spielman {
-	margin-left: 2em;
-	float: left;
-	background-image: url("../images/StefanieSpielmanFundLogo.jpg");
+    margin-left: 2em;
+    float: left;
+    background-image: url(../images/StefanieSpielmanFundLogo.jpg);
 }
 .komen {
-	margin-right: 2em;
-	float: right;
-	background-image: url("../images/sgk-logo_top.png");
-	background-position: -1em 2em;
+    margin-right: 2em;
+    float: right;
+    background-image: url(../images/sgk-logo_top.png);
+    background-position: -1em 2em;
 }
 .block-o-ribbon {
-	width: 4em;
-	height: 4em;
-	display: block;
-	border-radius: 2em;
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	box-shadow: 0 0.05em 0.4em #FFA4BD inset;
-	background-image: url("../images/bigRibbonTranspBackg.png");
-	margin: 0 auto;
+    width: 4em;
+    height: 4em;
+    display: block;
+    border-radius: 2em;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 .05em .4em #FFA4BD inset;
+    background-image: url(../images/bigRibbonTranspBackg.png);
+    margin: 0 auto;
 }
-
-/* 
- *    Shirts
- */
 #t-shirts {
-	background-color: #FFA4BD;
+    background-color: #FFA4BD;
 }
 .shirt {
-	background-image: url("../images/shirt-2013.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 12em;
-	height: 12em;
-	display: block;
-	margin: 0 auto;
-	margin-bottom: 3em;
-	box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.9);
+    background-image: url(../images/pinkshirtnew.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 9.5em;
+    height: 12em;
+    display: block;
+    margin: 0 auto 3em;
+    box-shadow: 0 0 20px -8px rgba(0, 0, 0, .9);
 }
 #shirt-button {
-	padding: 0.25em 0.75em;
-	margin-top: 3em;
-	border-radius: 0.6em;
-	font-weight: 200;
-	font-size: .8em;
-	text-decoration: none;
-	font-family: 'Montserrat', sans-serif;
+    padding: .25em .75em;
+    margin-top: 3em;
+    border-radius: .6em;
+    font-weight: 200;
+    font-size: .8em;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
 }
 .island .left {
-	float: left;
+    float: left;
 }
 .island .right {
-	float: right;
+    float: right;
 }
 .island {
-	width: 80%;
-	overflow: hidden;
-	/*background-image: url("../images/line-pattern.png");*/
-	margin: 0 auto;
-	padding: 2em;
-	text-align: center;
-	vertical-align: center;
-	margin-bottom: 1em;
-	display: block;
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto 1em;
+    padding: 2em;
+    text-align: center;
+    vertical-align: center;
+    display: block;
 }
 .island-container {
-	max-width: 70%;
-	margin: 0 auto;
+    max-width: 70%;
+    margin: 0 auto;
 }
-/*.island-container a:link {
-	color: #FFA4BD;
-}
-.island-container a:hover {
-	border-color: #5b6064;
-	color: #5b6064;
-}
-.island-container a:visited {
-	color: #FFA4BD;
-}
-.island-container a:target {
-	color: #FFA4BD;
-}*/
 .island-container a:link {
-	color: white;
-	border-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    border-color: rgba(255, 255, 255, .5);
 }
 .island-container a:hover {
-	border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
 }
 .island-container a:visited {
-	color: white;
-	border-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    border-color: rgba(255, 255, 255, .5);
 }
 .island-container a:target {
-	color: white;
-	border-color: rgba(255, 255, 255, 1);
+    color: #fff;
+    border-color: rgba(255, 255, 255, 1);
 }
-
-/* 
- *    Social
- */
- #social {
- 	background-image: url("../images/agsquare-darker.png");
- 	background-size: initial;
- 	background-repeat: repeat;
- 	text-align: center;
- }
- #social .row {
- 	padding-top: 4em;
- }
- #follow-us {
- 	display: block;
- 	color: #FFA4BD;
- 	padding-bottom: 1.7em;
- 	font-size: 3em;
- 	font-weight: 300;
- }
- .social-image {
- 	display: inline-block;
- 	width: 3em;
- 	height: 3em;
- 	padding: 1em;
- 	margin-left: 1em;
- 	margin-right: 1em;
- 	border: 3px #FFA4BD;
- 	background-color: #FFA4BD;
- }
+.island .left {
+	border: none;
+	pointer-events: none;
+}
+#social {
+    background-image: url(../images/agsquare-darker.png);
+    background-size: initial;
+    background-repeat: repeat;
+    text-align: center;
+}
+#social .row {
+    padding-top: 4em;
+}
+#follow-us {
+    display: block;
+    color: #FFA4BD;
+    padding-bottom: 1.7em;
+    font-size: 3em;
+    font-weight: 300;
+}
+.social-image {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    padding: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: 3px #FFA4BD;
+    background-color: #FFA4BD;
+}
 .twitter-timeline {
-	clear: both;
-	display: block;
-	margin: 0 auto;
-	padding-top: 7em;
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    padding-top: 7em;
 }
-/* 
- *    Footer
- */
 #footer {
-	width: 100%;
-	background-color: #2B2B2B;
-	text-align: center;
-	color: #7A7A7A;
-	font-size: 1em;
+    width: 100%;
+    background-color: #2B2B2B;
+    text-align: center;
+    color: #7A7A7A;
+    font-size: 1em;
 }
 #footer .container {
-	padding-top: 1em;
-	padding-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .footer-row {
-	display: block;
-	padding: 2em 0;
+    display: block;
+    padding: 1em 0;
 }
 .footer-link {
-	padding: 0.5em 1em;
-	border-radius: 1em;
-	color: #7A7A7A;
-	border: 1px solid #7A7A7A;
-	cursor: pointer;
-	margin: 0 auto;
-    transition: all 0.5s;
+    padding: .5em 1em;
+    border-radius: 1em;
+    color: #7A7A7A;
+    border: 1px solid #7A7A7A;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: all .5s;
     text-decoration: none;
     display: block;
 }
 .footer-text {
-	font-size: 1em;
+    font-size: 1em;
 }
 .slide-out {
-	display: none;
-	padding-top: 2em;
-	font-size: 1.2em;
-	line-height: 1.5em;
-	letter-spacing: 0.01em;
-	font-family: 'Source Sans Pro';
-	color: #FFA4BD;
+    display: none;
+    padding-top: 2em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    letter-spacing: .01em;
+    font-family: 'Source Sans Pro';
+    color: #FFA4BD;
 }
 .footer-button-wrapper {
-	width: 14em;
-	margin: 0 auto;
+    width: 14em;
+    margin: 0 auto;
 }
 .slide-out-leaders {
-	margin-bottom: 1em;
-	margin-top: 2em;
+    margin-bottom: 1em;
+    margin-top: 2em;
 }
 .slide-out-share {
-	margin-bottom: 2em;
-	margin-top: 1em;
+    margin-bottom: 2em;
+    margin-top: 1em;
 }
 .leader-email {
-	color: #7A7A7A;
-	border: none;
+    color: #7A7A7A;
+    border: none;
 }
 .footer-text {
-	font-family: 'Montserrat', sans-serif;
-	padding-left: 0.2em;
+    font-family: Montserrat, sans-serif;
+    padding-left: .2em;
 }
 .footer-link:hover {
-	color: #FFA4BD;
-	border: 1px solid #FFA4BD;
+    color: #FFA4BD;
+    border: 1px solid #FFA4BD;
 }
 .footer-link:active {
-	color: white;
-	border:  1px solid white;
+    color: #fff;
+    border: 1px solid #fff;
 }
 .slide-out a {
-	color: #7A7A7A;
-	border: none;
-	text-decoration: none;
+    color: #7A7A7A;
+    border: none;
+    text-decoration: none;
 }
 .slide-out a:hover {
-	color: #FFA4BD;
+    color: #FFA4BD;
 }
 .slide-out a:active {
-	color: white;
+    color: #fff;
 }
 .popout-social {
-	display: block;
+    display: block;
 }
-
-/*
-*	Default Settings
-*/
-*:focus {
+:focus {
     outline: 0;
 }
-
-
-
-
