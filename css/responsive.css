@@ -1,20 +1,37 @@
-@media only screen and (max-width:1400px) {
+/*
+    responsive css written by johns gresham
+*/
+
+/* 
+    horizontal media queries 
+*/
+@media only screen and (max-width:1430px) {
     .containter, .row {
     width: 90%
 	}
 }
+@media only screen and (max-width:1230px) {
+    .cancer-circle, .cancer-info {
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+}
 @media screen and (max-width:1140px) {
+    .containter, .row {
+         width: 95%
+    }
     .charities-circle {
     width: 10em;
     height: 10em;
     border-radius: 5em;
+    }
+    #shirt-button {
+        display: block;
+        float: none;
+        margin: 2em auto;
+    }
 }
-.cancer-circle, .cancer-info {
-    float: none;
-    margin: 0 auto;
-    display: block;
-}
-
 @media screen and (max-width:975px) {
     .social-image {
     margin-left: .2em;
@@ -31,7 +48,7 @@
     line-height: 95%
 }
 .pink-script-area {
-    padding-top: 9em;
+    padding-top: 8em;
 }
 .date {
     padding-top: 2em;
@@ -39,15 +56,23 @@
 #hero-shirt-button {
     margin-top: 2em;
 }
-}@media screen and (max-width:960px) {
+}
+@media screen and (max-width:960px) {
     .container, .row {
-    width: 95%}
+    width: 95%
+    }
 .charities-circle {
     width: 10em;
     height: 10em;
     border-radius: 5em;
 }
-}@media screen and (max-width:820px) {
+    #shirt-button {
+        display: block;
+        float: none;
+        margin: 2em auto;
+    }
+}
+@media screen and (max-width:820px) {
     .charities-circle {
     width: 8em;
     height: 8em;
@@ -63,6 +88,9 @@
 }
 }
 @media screen and (max-width:720px) {
+    body {
+        font-size: 1.3em;
+    }
     .charities-circle {
     float: none;
     display: block;
@@ -79,10 +107,8 @@
 	    font-size: 1em;
 	    line-height: 1.5em;
 	}
-	#shirt-button {
-    	display: block;
-    	float: none;
-    	margin: 2em auto;
+    .twitter-timeline {
+        width: 90% !important;
     }
 }
 @media screen and (max-width:640px) {
@@ -92,3 +118,32 @@
 	    border-radius: 5em;
     }
 }
+
+/* 
+    vertical media queries 
+*/
+
+@media screen and (max-height:660px) {
+    #home {
+        height: 660px;
+    }
+    #next-section {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

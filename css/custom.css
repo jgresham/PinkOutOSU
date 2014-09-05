@@ -1,3 +1,6 @@
+/*
+    responsive css written by johns gresham
+*/
 body, html {
     height: 100%}
 div {
@@ -14,8 +17,9 @@ body {
 #home {
     height: 100%;
     padding: 0;
-    background-image: url(../images/ohio-stadium-night-filter2.jpg);
-    background-size: 100% 100%;
+    background-image: url(../images/ohio-stadium-night-filter3.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .section {
     margin: 0;
@@ -65,7 +69,8 @@ body {
 #hero-logo {
     display: block;
     margin: 2em auto;
-    width: 4em;
+    max-width: 4em;
+    max-height: 15%;
 }
 .date {
     font-family: Montserrat, sans-serif;
@@ -136,8 +141,6 @@ body {
 }
 .cancer-circle-right {
     float: right;
-    background-image: url(../images/eight.png);
-    background-size: contain;
     margin-right: 2em;
 }
 .cancer-info-left {
@@ -146,12 +149,22 @@ body {
 }
 .cancer-circle-left {
     float: left;
-    background-image: url(../images/tree.jpg);
-    background-size: contain;
     margin-left: 1em;
 }
 .cancer-info-right {
     float: right;
+}
+#cancer-eight-women {
+    background-image: url(../images/eight.png);
+    background-size: contain;
+}
+#cancer-pink-blue-ribbon {
+    background-image: url(../images/pink-blue-ribbon.png);
+    background-size: contain;
+}
+#cancer-tree {
+    background-image: url(../images/tree.jpg);
+    background-size: contain;
 }
 #about {
     background-color: #f6f7f7;
@@ -171,6 +184,7 @@ body {
     margin: 0 auto;
     background-color: #FFA4BD;
     box-shadow: 0 13px 25px -5px rgba(0, 0, 0, .9);
+    max-width: 90%;
 }
 .about-info {
     color: #858585;
@@ -246,11 +260,12 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     box-shadow: 0 .05em .4em #FFA4BD inset;
-    background-image: url(../images/bigRibbonTranspBackg.png);
+    background-image: url(../images/bigRibbonTranspBackgLow.png);
     margin: 0 auto;
 }
 #t-shirts {
-    background-color: #FFA4BD;
+    background-image: url(../images/script-pink-overlay.jpg);
+    background-size: cover;
 }
 .shirt {
     background-image: url(../images/pinkshirtnew.jpg);
@@ -281,7 +296,6 @@ body {
     width: 80%;
     overflow: hidden;
     margin: 0 auto 1em;
-    padding: 2em;
     text-align: center;
     vertical-align: center;
     display: block;
@@ -306,8 +320,8 @@ body {
     border-color: rgba(255, 255, 255, 1);
 }
 .island .left {
-	border: none;
-	pointer-events: none;
+    border: none;
+    pointer-events: none;
 }
 #social {
     background-image: url(../images/agsquare-darker.png);
@@ -380,7 +394,7 @@ body {
     color: #FFA4BD;
 }
 .footer-button-wrapper {
-    width: 14em;
+    display: inline-block;
     margin: 0 auto;
 }
 .slide-out-leaders {
