@@ -17,7 +17,7 @@ body {
 #home {
     height: 100%;
     padding: 0;
-    background-image: url(../images/ohio-stadium-night-filter3.jpg);
+    background-image: url(../images/ohio-stadium-night-filter4.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -163,13 +163,12 @@ body {
     background-size: contain;
 }
 #cancer-tree {
-    background-image: url(../images/tree.jpg);
+    background-image: url(../images/tree1.jpg);
     background-size: contain;
 }
 #about {
     background-color: #f6f7f7;
     text-align: center;
-    font-weight: 300;
     overflow: hidden;
 }
 .about-circle {
@@ -189,8 +188,8 @@ body {
 .about-info {
     color: #858585;
     display: block;
-    line-height: 1.3em;
-    letter-spacing: .5px;
+    line-height: 1.6em;
+    font-weight: 300;
 }
 #about #row2 {
     padding-top: 0;
@@ -201,12 +200,12 @@ body {
 #charities {
     text-align: center;
     overflow: hidden;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     position: relative;
     background-color: #fff;
 }
 #charities .row {
-    padding-top: 1em;
+    padding-top: 2em;
 }
 .charities-info {
     display: block;
@@ -264,7 +263,7 @@ body {
     margin: 0 auto;
 }
 #t-shirts {
-    background-image: url(../images/script-pink-overlay.jpg);
+    background-image: url(../images/script-pink-overlay1.jpg);
     background-size: cover;
 }
 .shirt {

@@ -70,6 +70,7 @@
         display: block;
         float: none;
         margin: 2em auto;
+        font-size: 1.1em;
     }
 }
 @media screen and (max-width:820px) {
@@ -109,6 +110,9 @@
 	}
     .twitter-timeline {
         width: 90% !important;
+    }
+    .footer-text {
+        font-size: 1.6em;
     }
 }
 @media screen and (max-width:640px) {
