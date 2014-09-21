@@ -1,5 +1,5 @@
 /*
-    responsive css written by johns gresham
+*     custom css written by johns gresham
 */
 body, html {
     height: 100%}
@@ -13,82 +13,6 @@ body {
 }
 * {
     border: none;
-}
-#home {
-    height: 100%;
-    padding: 0;
-    background-image: url(../images/ohio-stadium-night-filter4.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.section {
-    margin: 0;
-    clear: both;
-}
-.container {
-    width: 90%;
-    text-align: center;
-    margin: 0 auto;
-    clear: both;
-}
-.pink-script {
-    font-family: Playball, cursive;
-    font-size: 8rem;
-    color: #FFA4BD;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 200;
-    line-height: 95%}
-.pink-script-area {
-    padding-top: 4em;
-}
-.button {
-    color: #FFA4BD;
-    border-width: .1em;
-    border-style: solid;
-    background-color: transparent;
-    border-color: rgba(255, 164, 189, .5);
-    transition: all .5s;
-}
-#hero-shirt-button {
-    margin-top: 1em;
-    font-size: 1.2em;
-    padding: .25em .75em;
-    border-radius: 1em;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    letter-spacing: .07em;
-    font-family: Montserrat, sans-serif;
-    cursor: pointer;
-    text-transform: uppercase;
-}
-#hero-shirt-button:hover, #hero-shirt-button:target {
-    border-color: #FFA4BD;
-}
-#hero-logo {
-    display: block;
-    margin: 2em auto;
-    max-width: 4em;
-    max-height: 15%;
-}
-.date {
-    font-family: Montserrat, sans-serif;
-    font-size: 5em;
-    color: #FFA4BD;
-    display: block;
-    padding-bottom: .5em;
-    font-weight: 900;
-    padding-top: 1em;
-}
-#next-section {
-    width: 2em;
-    position: absolute;
-    bottom: 3em;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    cursor: pointer;
 }
 .row {
     clear: both;
@@ -110,6 +34,107 @@ body {
     font-size: 2em;
     padding-top: 2em;
 }
+/*
+*       HERO
+*/  
+#home {
+    min-height: 100%;
+    padding: 0;
+    background-image: url(../images/ohio-stadium-night-filter4.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.section {
+    margin: 0;
+    clear: both;
+}
+.container {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+}
+.pink-script {
+    font-family: Playball, cursive;
+    font-size: 8rem;
+    color: #FFA4BD;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 200;
+    line-height: 95%;
+}
+.pink-script-area {
+    padding-top: 8em;
+}
+.button {
+    color: #FFA4BD;
+    border-width: .1em;
+    border-style: solid;
+    background-color: transparent;
+    border-color: rgba(255, 164, 189, .5);
+    transition: all .5s;
+}
+#hero-shirt-button {
+    margin-top: 4em;
+    font-size: 1.2em;
+    padding: .25em .75em;
+    border-radius: 1em;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .07em;
+    font-family: Montserrat, sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+}
+#hero-shirt-button:hover, #hero-shirt-button:target {
+    border-color: #FFA4BD;
+}
+#hero-logo {
+    max-width: 4em;
+    max-height: 15%;
+    padding-right: 3em;
+    display: inline-block;
+    vertical-align: middle;
+}
+.date {
+    font-family: Playball, cursive;
+    /*font-family: Montserrat, sans-serif;*/
+    font-size: 4em;
+    color: #f6f7f7;
+    font-weight: 900;
+    display: inline-block;
+    vertical-align: middle;
+}
+#next-section {
+    width: 2em;
+    position: absolute;
+    bottom: 3em;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    cursor: pointer;
+}
+#october {
+    color: #FFA4BD;
+}
+#logo-date-wrapper {
+    margin: 0 auto;
+    min-width: 50%;
+    padding-top: 5em;
+}
+#hero-shirt-button-wrapper {
+    margin: 0 auto;
+}
+#RvsO {
+    display: block;
+    margin: 0 auto;
+    width: 15em;
+}
+/*
+*       CANCER INFO
+*/
 #cancer {
     background-image: url(../images/light_wool.png);
     background-repeat: repeat;
@@ -117,7 +142,7 @@ body {
     -moz-box-shadow: 0 .2em .7em #888;
     -webkit-box-shadow: 0 .2em .7em #888;
     box-shadow: 0 .2em .5em #888;
-    padding-bottom: 6em;
+    padding-bottom: 3em;
 }
 .cancer-circle {
     width: 10em;
@@ -166,6 +191,9 @@ body {
     background-image: url(../images/tree1.jpg);
     background-size: contain;
 }
+/*
+*       ABOUT
+*/
 #about {
     background-color: #f6f7f7;
     text-align: center;
@@ -188,8 +216,8 @@ body {
 .about-info {
     color: #858585;
     display: block;
-    line-height: 1.6em;
     font-weight: 300;
+    font-size: 1.2em;
 }
 #about #row2 {
     padding-top: 0;
@@ -197,16 +225,22 @@ body {
 #about-pink-text {
     color: #FFA4BD;
 }
+/*
+*       CHARITIES
+*/
 #charities {
     text-align: center;
     overflow: hidden;
-    padding-bottom: 1em;
+    padding-bottom: 3em;
     position: relative;
     background-color: #fff;
 }
 #charities .row {
-    padding-top: 2em;
+    padding-top: 4em;
 }
+/*#charities:nth-child(2), #charities:nth-child(3) {
+    padding-top: 1em;
+}*/
 .charities-info {
     display: block;
     text-align: center;
@@ -262,9 +296,13 @@ body {
     background-image: url(../images/bigRibbonTranspBackgLow.png);
     margin: 0 auto;
 }
+/*
+*       T-SHIRTS
+*/
 #t-shirts {
     background-image: url(../images/script-pink-overlay1.jpg);
     background-size: cover;
+    padding-bottom: 2em;
 }
 .shirt {
     background-image: url(../images/pinkshirtnew.jpg);
@@ -322,6 +360,40 @@ body {
     border: none;
     pointer-events: none;
 }
+/*
+*       PICTURES
+*/
+#pictures {
+    background-image: url(../images/pink-polygon-edit.jpg);
+    background-size: cover;
+}
+.image-gallery {
+    display: block;
+    width: 80%;
+    margin: 9em auto;
+    -moz-box-shadow: 0 0 17px #282828;
+    -webkit-box-shadow: 0 0 17px #282828;
+    box-shadow: 0 0 17px #282828;
+}
+#gallery {
+    width: 80%;
+    margin: 0 auto;
+}
+#go-pink {
+
+}
+#pretty-in-pink {
+    width: 60%;
+}
+#tentv {
+
+}
+#block-o-pink {
+
+}
+/*
+*       SOCIAL
+*/
 #social {
     background-image: url(../images/agsquare-darker.png);
     background-size: initial;
@@ -354,6 +426,9 @@ body {
     margin: 0 auto;
     padding-top: 7em;
 }
+/*
+*       FOOTER
+*/
 #footer {
     width: 100%;
     background-color: #2B2B2B;
@@ -363,7 +438,7 @@ body {
 }
 #footer .container {
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
 .footer-row {
     display: block;
