@@ -11,6 +11,10 @@
 		<meta property="og:image:type" content="image/png">
 		<meta property="og:image:width" content="150">
 		<meta property="og:image:height" content="270">
+		<meta property="og:title" content="Pink Out at Ohio State" />
+		<meta property="og:description" content="Wear PINK to the Ohio State vs Rutgers game on October 18th!"/>
+
+
 
 		<!-- Body font-->
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900" rel="stylesheet" type="text/css">
@@ -39,27 +43,55 @@
 					<img id="hero-logo" src="images/bigRibbonTranspBackgLow.png" alt=""> 
 					<span class="date"><span id="october">October</span>&nbsp 18 &middot 14</span>
 				</div>
-				<img id="RvsO" src="images/RvO.png" alt="Rutgers vs. Ohio State"> 
+				<img id="RvsO" src="images/OvsR.png" alt="Rutgers vs. Ohio State"> 
 				<div id="hero-shirt-button-wrapper">
 						<a id="hero-shirt-button" class="button" >Shirts</a>
 				</div>
 				<img id="next-section" src="images/down-caret.png">
 			</div>
 		</div>
-		<div id="cancer" class="section content">
+		<div id="events">
+			<div id="events-bar">
+				<span class="upcoming-event">Upcoming Meetings</span>
+				<span class="upcoming-event">6:30pm Thursday, October 2nd at Lazenby 021</span>
+			</div>
+		</div>
+		<div id="t-shirts" class="section content">
 				<div class="row">
+					<div class="column size-12">
+						<div class="island">
+							<div class="island-container">
+								<a class="shirt"></a>
+								<div id="square-order-button">
+									<a href="https://mkt.com/pink-out-at-ohio-state" class="sq-embed-button" data-style-background-color="#F54B79" data-style-width="300px" data-style-height="50px">Buy a Shirt</a>
+								</div>
+								<a id="shirt-button" class="button right" href="">
+									<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+										<input type="hidden" name="cmd" value="_s-xclick">
+										<input type="hidden" name="hosted_button_id" value="QPVGQKHNXWQAE">
+										<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+										<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+									</form>
+								</a>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+		<div id="cancer" class="section content">
+				<div class="row" id="cancer-row1">
 					<div class="column size-12">
 						<a class="cancer-circle cancer-circle-right" id="cancer-eight-women"></a>
 						<span class="cancer-info cancer-info-left">One in eight women in the United States will develop breast cancer in her lifetime.</span>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="cancer-row2">
 					<div class="column size-12">
 						<a class="cancer-circle cancer-circle-left" id="cancer-pink-blue-ribbon"></a>
 						<span class="cancer-info cancer-info-right">Although less common in men, breast cancer can spread faster and more aggressively.</span>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row" id="cancer-row3">
 					<div class="column size-12">
 						<a class="cancer-circle cancer-circle-right" id="cancer-tree"></a>
 						<span class="cancer-info cancer-info-left">The second most frequently diagnosed cancer among women is breast cancer.</span>
@@ -91,20 +123,6 @@
 			</div>
 			<a class="block-o-ribbon"></a>
 		</div>
-		<div id="t-shirts" class="section content">
-				<div class="row">
-					<div class="column size-12">
-						<div class="island">
-							<div class="island-container">
-								<a class="shirt"></a>
-								<!--<a id="shirt-button" class="button left" href="http://www.pinkoutatohiostate.com/#!projects/c21kz">Buy a Shirt</a> -->
-								<a id="shirt-button" class="button left" href="">2014 Shirts Coming Soon</a>
-								<a id="shirt-button" class="button right" href="">Donate</a>
-							</div>
-						</div>
-				</div>
-			</div>
-		</div>
 		<div id="pictures" class="section content">
 			<div class="row">
 				<div class="column size-12">
@@ -121,10 +139,10 @@
 			<div class="row">
 				<div class="column size-12">
 					<span id="follow-us">Follow Us</span>
-					<a href="https://twitter.com/OSUPinkOut"><img class="social-image twitter" src="images/twitter.png" style="margin-left: 0"/></a>
+					<a href="https://twitter.com/PinkOutOSU"><img class="social-image twitter" src="images/twitter.png" style="margin-left: 0"/></a>
 					<a href="https://www.facebook.com/PinkOutAtOhioState"><img class="social-image facebook" src="images/facebook.gif"/></a>
-					<a href="#"><img class="social-image instagram" src="images/instagram.gif"/></a>
-					<a href="mail_to:pinkout@osu.edu"><img class="social-image email" src="images/email.png" style="margin-right: 0"/></a>
+					<a href="http://instagram.com/pinkoutosu"><img class="social-image instagram" src="images/instagram.gif"/></a>
+					<a href="mail_to:pinkoutatosu@gmail.com"><img class="social-image email" src="images/email.png" style="margin-right: 0"/></a>
 					<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/OSUPinkOut" data-widget-id="488801684554924032" data-chrome="noscrollbar" data-tweet-limit="6">Tweets by @OSUPinkOut</a>
 				</div>
 			</div>
@@ -190,6 +208,8 @@
 		<!-- Javascript Files -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="js/custom.js"></script>
+		<script src="https://cdn.sq-api.com/market/embed.js" charset="utf-8"></script>
+
 
 	</body>
 </html>

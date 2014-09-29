@@ -14,7 +14,7 @@
 
  $("#next-section").click(function() {
      	   $('html, body').animate({
-        scrollTop: $('#cancer').offset().top + 100
+        scrollTop: $('#events').offset().top
     }, 800);
 });
 /*

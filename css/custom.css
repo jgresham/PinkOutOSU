@@ -133,6 +133,84 @@ body {
     width: 15em;
 }
 /*
+*       EVENTS
+*/
+#events {
+    background-color: #f6f7f7;
+}
+.upcoming-event {
+    display: block;
+    text-align: center;
+    font-size: 1.7em;
+    padding: 0.2em;
+    color: #FFA4BD;
+}
+/*
+*       T-SHIRTS
+*/
+#t-shirts {
+    background-image: url(../images/script-pink-overlay1.jpg);
+    background-size: cover;
+    padding-bottom: 3em;
+    padding-top: 2em;
+}
+.shirt {
+    background-image: url(../images/2014-shirt.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 11em;
+    width: 16em;
+    display: block;
+    margin: 0 auto 4em;
+    box-shadow: 0 0 20px -8px rgba(0, 0, 0, .9);
+}
+#shirt-button {
+    padding: .25em .75em;
+    margin-top: 3em;
+    border-radius: .6em;
+    font-weight: 200;
+    font-size: .8em;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    display: block;
+    border: none;
+}
+#square-order-button {
+    display: inline-block;
+    margin: 0 auto;
+}
+.island {
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto 1em;
+    text-align: center;
+    vertical-align: center;
+    display: block;
+}
+.island-container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.island-container a:link {
+    color: #fff;
+    border-color: rgba(255, 255, 255, .5);
+}
+.island-container a:hover {
+    border-color: rgba(255, 255, 255, 1);
+}
+.island-container a:visited {
+    color: #fff;
+    border-color: rgba(255, 255, 255, .5);
+}
+.island-container a:target {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 1);
+}
+.island .left {
+    border: none;
+    pointer-events: none;
+}
+/*
 *       CANCER INFO
 */
 #cancer {
@@ -143,6 +221,10 @@ body {
     -webkit-box-shadow: 0 .2em .7em #888;
     box-shadow: 0 .2em .5em #888;
     padding-bottom: 3em;
+}
+#cancer .row {
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 .cancer-circle {
     width: 10em;
@@ -297,70 +379,6 @@ body {
     margin: 0 auto;
 }
 /*
-*       T-SHIRTS
-*/
-#t-shirts {
-    background-image: url(../images/script-pink-overlay1.jpg);
-    background-size: cover;
-    padding-bottom: 2em;
-}
-.shirt {
-    background-image: url(../images/pinkshirtnew.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 9.5em;
-    height: 12em;
-    display: block;
-    margin: 0 auto 3em;
-    box-shadow: 0 0 20px -8px rgba(0, 0, 0, .9);
-}
-#shirt-button {
-    padding: .25em .75em;
-    margin-top: 3em;
-    border-radius: .6em;
-    font-weight: 200;
-    font-size: .8em;
-    text-decoration: none;
-    font-family: Montserrat, sans-serif;
-}
-.island .left {
-    float: left;
-}
-.island .right {
-    float: right;
-}
-.island {
-    width: 80%;
-    overflow: hidden;
-    margin: 0 auto 1em;
-    text-align: center;
-    vertical-align: center;
-    display: block;
-}
-.island-container {
-    max-width: 70%;
-    margin: 0 auto;
-}
-.island-container a:link {
-    color: #fff;
-    border-color: rgba(255, 255, 255, .5);
-}
-.island-container a:hover {
-    border-color: rgba(255, 255, 255, 1);
-}
-.island-container a:visited {
-    color: #fff;
-    border-color: rgba(255, 255, 255, .5);
-}
-.island-container a:target {
-    color: #fff;
-    border-color: rgba(255, 255, 255, 1);
-}
-.island .left {
-    border: none;
-    pointer-events: none;
-}
-/*
 *       PICTURES
 */
 #pictures {
@@ -370,7 +388,7 @@ body {
 .image-gallery {
     display: block;
     width: 80%;
-    margin: 9em auto;
+    margin: 6em auto;
     -moz-box-shadow: 0 0 17px #282828;
     -webkit-box-shadow: 0 0 17px #282828;
     box-shadow: 0 0 17px #282828;
