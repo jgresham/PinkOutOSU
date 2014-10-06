@@ -82,11 +82,20 @@
         margin: 10em auto;
     }
     .upcoming-event {
-        font-size: 3em;
+        font-size: 1em;
     }
     .cancer-info, .charities-info {
         font-size: 2em;
     }
+    #shirts {
+        padding-top: 2em;
+    }
+    #square-order-button a {
+        width: 350px !important;
+        height: 60px !important;
+        font-size: 25px !important;
+    }
+
 
 }
 @media screen and (max-width:960px) {
