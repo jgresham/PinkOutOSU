@@ -33,6 +33,18 @@
     #shirt-button {
         margin: 2em auto;
     }
+    #t-shirts #island {
+        width: 95%;
+        margin: 0 auto;
+    }
+    #sales-map {
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    .island-container .island {
+        padding-bottom: 13em;
+    }
 }
 @media screen and (max-width:980px) {
     .social-image {
@@ -82,7 +94,7 @@
         margin: 10em auto;
     }
     .upcoming-event {
-        font-size: 1em;
+        font-size: 2em;
     }
     .cancer-info, .charities-info {
         font-size: 2em;
